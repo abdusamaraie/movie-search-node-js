@@ -1,0 +1,19 @@
+{
+  "name": "app.js",
+  "version": "1.0.0",
+  "description": "simple movie search app",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/abdusamaraie/movie-search-api-app.git"
+  },
+  "author": "Abdu Samaraie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdusamaraie/movie-search-api-app/issues"
+  },
+  "homepage": "https://github.com/abdusamaraie/movie-search-api-app#readme"
+}
