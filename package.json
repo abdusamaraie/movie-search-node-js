@@ -17,9 +17,13 @@
   },
   "homepage": "https://github.com/abdusamaraie/movie-search-api-app#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
-    "nodemon": "^2.0.2",
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "nodemon": "^2.0.2"
   }
 }
