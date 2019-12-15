@@ -9,14 +9,15 @@ app.use(express.static('public'));
 
 //routes
 app.get('/',(req,res)=>{
-    res.render('home');
+    res.render('search');
 })
 
-app.get('/result',(req,res)=>{
-    request('http://omdbapi.com/?s=starwars&apikey=thewdb',(error,response,body)=>{
+app.get('/results',(req,res)=>{
+    var query = req.query.search;
+    request(`http://omdbapi.com/?s=${query}&apikey=thewdb`,(error,response,body)=>{
         if(!error && response.statusCode == 200){
-            var parsed = JSON.parse(body);
-            res.send(parsed);
+            var data = JSON.parse(body);
+            res.render('results', {data:data});
         }
     })
 })
