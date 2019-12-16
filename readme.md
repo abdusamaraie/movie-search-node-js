@@ -5,6 +5,6 @@
 * use nodejs for the back-end
 * npm install dependances 
 
-- Here is a screenshot of the page search:
+### Here is a screenshot of the search page:
 ![search it](https://i.imgur.com/mNlDyvi.png)
 ![search star](https://i.imgur.com/3WtSQJP.png)
